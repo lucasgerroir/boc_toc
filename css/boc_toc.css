@@ -1,0 +1,60 @@
+#boc_toc_container {
+	margin-bottom: 20px;
+}
+
+#boc_toc_container.toc_stick {
+
+	position: fixed;
+	top: 10px;
+	width: 300px;
+
+}
+
+#boc_toc_container  nav {
+
+	background: transparent;
+
+}
+
+#boc_toc_container ul {
+
+	margin: 0 0 1em 1em;
+
+}
+
+#boc_toc_container.spyscroll .nav {
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+}
+
+#boc_toc_container.spyscroll  .depth .nav {
+
+    display: none;
+
+}
+
+#boc_toc_container.spyscroll .nav > li > a {
+  
+    display: block;
+    margin: 5px 10px;
+    padding: 0px 10px;
+    border-left: 2px solid transparent;
+
+}
+
+#boc_toc_container.spyscroll .nav > li {
+
+    position: relative;
+    display: block;
+
+}
+
+#boc_toc_container.spyscroll .nav > .active > ul   {
+
+    display: block;
+
+}
+
